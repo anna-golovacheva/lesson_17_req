@@ -43,6 +43,8 @@ def main():
 
                     case '6':
                         break
+            cursor.close()
+            connection.close()
 
 
 if __name__ == '__main__':
